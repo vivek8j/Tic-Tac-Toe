@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: brown;
+    background-color: #ffffc7;
+}
+
+.gaembtn {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    gap: 1.5vmin;
+}
+
+#btn {
+    font-size: 1rem;
+    width: 18vmin;
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center;
+    align-items: center; */
+    background-color: brown;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-left: 10px;
+}
+
+#new-btn {
+    font-size: 1rem;
+    width: 18vmin;
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center;
+    align-items: center; */
+    background-color: brown;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-left: 10px;
+}
+
+#new-game {
+    font-size: 1rem;
+    width: 18vmin;
+    /* display: flex; */
+    /* text-align: center; */
+    /* justify-content: center;
+    align-items: center; */
+    background-color: brown;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.msgcontainer {
+    height: 30vmin;
+
+    /* background-color: green; */
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+
+#msg {
+    height: 60px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+/* .count {
+    width: 30vmin;
+    margin-left: 15px;
+    background-color: rgb(111, 82, 214);
+    border-radius: 1rem;
+}
+
+.totalc {
+    font-weight: 700;
+    color: white;
+} */
+
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 2rem;
+}
+
+#p1-name {
+    color: blue;
+    font-size: 1.5rem;
+}
+
+#p2-name {
+    color: brown;
+    font-size: 1.5rem;
+}

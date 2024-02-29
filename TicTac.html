@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="TicTac.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Tic Tac Toe</h1>
+
+      <div class="score-board">
+        <div class="score">
+          <p id="p1-name">P1</p>
+          <p id="p1-score">0</p>
+        </div>
+        <div class="score">
+          <p id="p2-name">P2</p>
+          <p id="p2-score">0</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+
+        <!-- <div class="count">
+          <p class="totalc">Total number of count: 9</p>
+          <p class="ocount"></p>
+          <p class="xcount"></p>
+        </div> -->
+      </div>
+
+      <div class="gamebtn">
+        <button id="new-game">New Game</button>
+        <button id="new-btn">Next Chance</button>
+        <button id="btn">Click to Reset</button>
+      </div>
+    </main>
+
+    <div class="msgcontainer hide">
+      <p id="msg">Winner</p>
+    </div>
+
+    <script src="TicTac.js"></script>
+  </body>
+</html>
